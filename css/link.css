@@ -1,0 +1,51 @@
+@CHARSET "UTF-8";
+a {
+	font-family: Verdana, sans-serif;
+	font-size: 1em;
+	text-decoration: none;
+}
+
+.top {
+	color: white;
+	position: relative;
+	bottom: 30px;
+	left: 900px;
+	margin-left: 20px;
+}
+
+.good {
+	display: block;
+	float: right;
+	width: 170px;
+	height: 38px;
+	background-color: #FF532A;
+	text-decoration: none;
+	text-align: center;
+	line-height: 36px;
+	font-family: Verdana, sans-serif;
+	color: white;
+	font-size: 1em;
+	margin-right: 20px;
+	margin-top: 10px;
+	border-radius: 5px;
+}
+.good:hover {
+	background-color: #E75A00;
+}
+
+#profile {
+	float: left;
+	background-color: #2F6E91;
+}
+#profile:hover {
+	background-color: #54A2C8;
+}
+
+#passwd {
+	float: left;
+	background-color: #8BAD53;
+}
+
+#passwd:hover {
+	background-color: #7DD884;
+}

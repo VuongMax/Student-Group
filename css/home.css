@@ -1,0 +1,90 @@
+header {
+	/*background-color: #151B1F;*/
+	background-color: #363D43;
+	height: 60px;
+	width: 100%;
+}
+header img {
+	position: relative;
+	left: 30px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color: #363D49;
+}
+
+section {
+	height: 600px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+div#gear {
+	position: relative;
+	bottom: 120px;
+	float: left;
+	margin-left: 200px;
+	margin-top: 100px;
+}
+#gear1 {
+	position: absolute;
+	top: 145px;
+	left: 101px;
+	animation: xoayXuoi 10s;
+	animation-iteration-count: infinite;
+	animation-delay: 0;
+	animation-timing-function: linear;
+	animation-fill-mode: forwards;
+}
+
+#gear2 {
+	position: absolute;
+	top: 183px;
+	left: 159px;
+	animation: xoayNguoc 11s;
+	animation-iteration-count: infinite;
+	animation-delay: 0;
+	animation-timing-function: linear;
+	animation-fill-mode: forwards;
+}
+#gear3 {
+	position: absolute;
+	top: 363px;
+	left: 120px;
+	animation: xoayNguoc 10s;
+	animation-iteration-count: infinite;
+	animation-delay: 0;
+	animation-timing-function: linear;
+	animation-fill-mode: forwards;
+
+}
+#gear4 {
+	position: absolute;
+	top: 287px;
+	left: 198px;
+	animation: xoayXuoi 14s;
+	animation-iteration-count: infinite;
+	animation-delay: 0;
+	animation-timing-function: linear;
+	animation-fill-mode: forwards;
+}
+
+@keyframes xoayXuoi {
+	0% { transform: rotate(0deg);}
+	100% { transform: rotate(360deg);}
+}
+@keyframes xoayNguoc {
+	0% { transorm: rotate(0deg);}
+	100% { transform: rotate(-360deg);}
+}
+
+footer {
+	background-color: #0088CC;
+	color: #363D43;
+	height: 170px;
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-right: 20px;
+	text-align: right;
+	clear: both;
+}
